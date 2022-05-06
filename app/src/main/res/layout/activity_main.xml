@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:text='Приют "Надежда"  '
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="406dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Кого ты себе хочешь взять?"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выбери одну категорию питомца"
+            android:textColor="#4f4f4f"
+            android:textSize="18sp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </RadioButton>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:srcCompat="@mipmap/Screenshot_1" />
+
+        <RadioButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </RadioButton>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:srcCompat="@mipmap/Screenshot_2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кошки"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="90dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Собаки"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="140dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        </RadioButton>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:srcCompat="@mipmap/Screenshot_3" />
+
+        <RadioButton
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </RadioButton>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            app:srcCompat="@mipmap/Screenshot_4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Попугаи"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="85dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Хомяки"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="135dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="55dp"
+            android:gravity="center"
+            android:outlineAmbientShadowColor="#8F1A1A"
+            android:text="Показать результаты"
+
+            android:background="@android:color/white"
+            android:textColor="@android:color/black">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:layout_marginLeft="20dp"
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Согласен(-а) с условиями использования и политикой конфидециальности"
+            android:textColor="#4f4f4f">
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text='Приют "Надежда"'
+        android:gravity="right"
+        android:layout_marginRight="10dp">
+
+    </TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/tw"/>
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/wa" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ist"/>
+
+        <ImageView
+            android:layout_marginLeft="400px"
+            android:layout_width="164dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/lapki" />
+
+    </LinearLayout>
+</LinearLayout>

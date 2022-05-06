@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:text='Приют "Надежда"  '
+            android:textColor="#000000"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="406dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Выбери себе питомца"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="30dp"
+            app:srcCompat="@drawable/kotik" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Барсик"
+            android:textColor="@color/black"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Смесь британского кота.Возраст - 4 месяца."
+            android:textSize="28dp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Информация"
+            android:textColor="@color/black"
+            android:textSize="16dp">
+
+        </TextView>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sown">
+
+        </ImageView>
+        <ImageView
+            android:layout_marginLeft="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sown">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Заполните данные, мы с вами свяжемся"
+            android:textColor="#4f4f4f"
+            android:textSize="18sp"
+            android:gravity="center">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42aaff">
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:text="Введите свое имя"
+            android:textSize="15dp"
+            android:textColor="#4f4f4F">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42aaff">
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content"
+            android:text="Введите свой номер телефона"
+            android:textSize="15dp"
+            android:textColor="#4f4f4F">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="Забрать себе">
+
+        </Button>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="Позвонить нам">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text='Приют "Надежда"'
+            android:gravity="right"
+            android:layout_marginRight="10dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/tw"/>
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/fb" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/wa" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ist"/>
+
+        <ImageView
+            android:layout_marginLeft="400px"
+            android:layout_width="164dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/lapki" />
+
+    </LinearLayout>
+</LinearLayout>
