@@ -169,10 +169,9 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="55dp"
             android:gravity="center"
-            android:outlineAmbientShadowColor="#8F1A1A"
+            android:background="#A8CAEA"
             android:text="Показать результаты"
 
-            android:background="@android:color/white"
             android:textColor="@android:color/black">
 
         </Button>

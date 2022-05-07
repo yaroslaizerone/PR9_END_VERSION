@@ -48,22 +48,29 @@
             android:layout_height="160dp"
             android:layout_marginLeft="30dp"
             app:srcCompat="@drawable/kotik" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:text="Барсик"
-            android:textColor="@color/black"
-            android:textSize="20sp"></TextView>
-
-        <TextView
-
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Смесь британского кота.Возраст - 4 месяца."
-            android:textSize="28dp"></TextView>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="Барсик"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Смесь британского кота.Возраст - 4 месяца."
+                android:textSize="28dp"></TextView>
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="20dp"
@@ -114,7 +121,7 @@
         android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#42aaff">
+        android:background=" #BBF4E3">
 
         <EditText
             android:layout_marginLeft="20dp"
@@ -133,7 +140,7 @@
         android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#42aaff">
+        android:background="#BBF4E3">
 
         <EditText
             android:layout_marginLeft="20dp"
@@ -155,7 +162,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
-            android:text="Забрать себе">
+            android:text="Забрать себе"
+            android:background="#A8CAEA">
 
         </Button>
 
@@ -170,7 +178,8 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
-            android:text="Позвонить нам">
+            android:text="Позвонить нам"
+            android:background="#A8CAEA">
 
         </Button>
     </LinearLayout>
